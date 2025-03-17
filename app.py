@@ -4,7 +4,7 @@ st.set_page_config(page_title="Income Percentile | ISU 3", layout="centered")
 
 def income_percentile_calculator():
     st.title("Income Percentile Calculator (Canada/US)")
-    st.markdown("[test](https://www.google.com)")
+    st.markdown("[Savings Calculator](https://savings-calc.streamlit.app/)")
     st.write("Calculates in what percentile you rank in terms of income.")
     
     country = st.selectbox("Country:", ["Canada", "United States"])
